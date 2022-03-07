@@ -1,8 +1,13 @@
 import React from 'react'
 
 function Favourite() {
+  // const [fav,setFav]=useState([]);
+
   return (
-    <div>Favourite</div>
+    <div>
+      <h1>Favourite</h1>
+
+    </div>
   )
 }
 
