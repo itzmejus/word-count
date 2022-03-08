@@ -56,6 +56,7 @@ function HomePage() {
             <th scope="col">#</th>
             <th scope="col">URL</th>
             <th scope="col">Word Count</th>
+            <th scope="col">Text Count</th>
             <th scope="col">Favourite</th>
             <th scope="col">Remove</th>
           </tr>
@@ -64,8 +65,9 @@ function HomePage() {
           return (
             <tbody key={key}>
               <tr>
-                <th scope="row">{links.length}</th>
+                <th scope="row">1</th>
                 <td>{links.linkaddress}</td>
+                <th scope="row">{links.linkaddress.split(" ").length} </th>
                 <td>{links.linkaddress.length}</td>
                 <td>
                   <Button
